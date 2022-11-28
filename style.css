@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+/* Sizing */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.rounded-xl {
+  border-radius: 1.5rem;
+}
+
+.main-section {
+  background: url("/images/bg-tablet-pattern.svg");
+  /* background-size: 1200px; */
+  background-position: 120% -250px;
+  background-repeat: no-repeat;
+}
+
+.body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ccc !important;
+  transition: ease 0.5;
+}
+.navbar {
+  background-color: transparent;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+}
+
+.nav-item .nav-link {
+  color: #000000 !important;
+  transition: ease 0.5s;
+}
+
+.nav-item .nav-link:hover {
+  transition: ease 0.5s;
+  text-decoration: none;
+}
+
+.btn-nav-get {
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 100%);
+  border-color: transparent;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0px 5px 10px hsl(12, 88%, 59%);
+  transition: ease 0.5s;
+}
+
+.btn-nav-get:hover {
+  background-color: hsla(12, 88%, 59%, 0.5);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0px 5px 10px hsla(12, 88%, 59%, 0.5);
+  transition: ease 0.5s;
+}
+
+.text-left {
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
+}
+
+.lead{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    color: rgb(163, 162, 162);
+}
+
+.btn-number-sect-2{
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 100%);
+  border-color: transparent;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0px 5px 10px hsl(12, 88%, 59%);
+  transition: ease 0.5s;
+}
+
+.card .card-custom{
+  
+}
+
+.card-title{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 39%, 23%);
+}
+
+.card-text{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  color: rgb(163, 162, 162);
+}
+
+.card-body{
+  background-color: hsl(227, 47%, 96%);
+  
+}
+
+.third-section{
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 100%);
+  background-image: url("/images/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 100px -150px;
+}
+
+.btn-get-white{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(12, 88%, 59%);
+  border-color: transparent;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: ease 0.5s;
+}
+
+.btn-get-white:hover{
+  background-color: hsla(0, 0%, 100%, 0.5);
+  color: hsl(12, 88%, 59%);
+  transition: ease 0.5s;
+}
